@@ -1,0 +1,75 @@
+@charset utf-8;
+
+html, body {
+				background-color: #20B2AA;
+				height: 100%
+			}
+			
+			#contenedor {
+				width: 80%;
+				height: 100%;
+				min-width: 500px;
+				margin:auto;
+			}
+
+			#cuestionario {
+				width:60%;
+				height:85%;
+				margin-left: 120px;
+			}
+			
+			header{
+				width: 100%;
+				height: 8%;
+				text-align: center;
+				padding: 20px;
+				margin: auto;
+				background-color: greenyellow;
+			}
+			#cabezera {
+				padding-top: 100px;
+				float: right;
+			}
+
+			.imagen:hover{
+				border-color: darkblue;
+				border:  2px solid;				
+			}
+
+			#principal {
+				padding-top: 50px;
+				width:100%;
+				height:85%;
+			}
+
+			.grillaDeBotones{	
+			width: 30%;			
+				display: grid;
+				gap: 10px;
+				margin:  20px 0;
+			}
+
+			.grillaTerminada {	
+			width: 30%;			
+				display: grid;
+				gap: 10px;
+				margin:  20px 0;
+			}
+
+			.grillaTerminada .btnCorrecto{
+				background-color: seagreen;
+			}
+			.grillaTerminada .btnFalso{
+				background-color: indianred;
+				color: black;				
+			}
+
+			.btnCorrecto, .btnFalso{
+				border:  1px solid;
+				background-color: dimgrey;
+				color: white;
+			}
+
+			.btnCorrecto:hover, .btnFalso:hover{
+				border-color: darkred;
+			}
